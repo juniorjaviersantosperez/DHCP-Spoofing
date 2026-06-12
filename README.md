@@ -207,9 +207,12 @@ Las capturas de pantalla se encuentran almacenadas en la carpeta **`/images/`** 
 
 | # | Archivo | Descripción |
 |---|---------|-------------|
-| 1 | `imagen_01_topologia.png` | Topología del laboratorio en GNS3 con nombre y matrícula del estudiante |
-| 2 | `imagen_02_servidor_dhcp_falso_iniciado.png` | Script `dhcp_spoofing_v3.py` en ejecución — servidor DHCP falso activo, esperando clientes |
-| 3 | `imagen_03_victima_ip_envenenada.png` | Víctima solicitando IP — primera asignación `10.0.99.6` luego `10.0.99.125` del servidor falso |
+| 1 | ![Topología](Imagenes/imagen_01_topologia.png)
+
+| 2 | ![Servidor DHCP Falso](Imagenes/imagen_02_servidor_dhcp_falso_iniciado.png)
+
+![Víctima con IP Envenenada](Imagenes/imagen_03_victima_ip_envenenada.png)
+
 | 4 | `imagen_04_intercambio_dhcp_completo.png` | Intercambio DHCP completo: DISCOVER → OFFER → REQUEST → ACK con cliente envenenado confirmado |
 | 5 | `imagen_05_contramedida_dhcp_snooping.png` | Contramedida aplicada en el switch: `ip dhcp snooping` + `ip dhcp snooping trust` en interfaz hacia router |
 
